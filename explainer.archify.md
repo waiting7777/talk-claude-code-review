@@ -14,6 +14,15 @@
 @source ocr title="alibaba/open-code-review README：Benchmark 與 Core Design" url=https://github.com/alibaba/open-code-review
 @source aacr title="AACR-Bench 資料集（50 個 repo、200 個 PR、1,505 個標註問題）" url=https://huggingface.co/datasets/Alibaba-Aone/aacr-bench
 
+## 為什麼講這題？ {#why-this-talk}
+
+@steps id=why-steps
+| w1 | 先試了 OCR | 本來想分享 Open Code Review，實際跑過，review 結果差強人意。 |
+| w2 | 自己做一個 | 試著自己寫一個 review 工具。程式看起來簡單，要做得好卻很難。 |
+| w3 | 看別人怎麼做 | 開始研究別人怎麼設計 review，剛好看到 Claude Code 團隊這篇訪談。 |
+
+所以今天先講 Claude Code 團隊怎麼審，再回頭看 OCR 的設計和數字。
+
 ## 一個 PR 由誰來審？ {#who-reviews}
 
 @workflow id=review-route title="PR 審查分工"
