@@ -43,7 +43,7 @@
 | t3 | 一塊一塊放手 | 某塊抓到 100% 的問題，才撤掉那塊的人工。 |
 | t4 | 核心永遠有人 | 最關鍵的改動仍由 code owner 手動審。 |
 
-@callout level=warning title="照實講的地方"
+@callout level=warning title="Tips"
 「抓到 100%」是 Cat Wu 說的撤人工條件，訪談沒講怎麼量。
 整個過程花了六個多月，不是一次換掉。
 
@@ -95,7 +95,7 @@ xychart-beta
 
 算法：OCR 的 F1 = 2 × 33.9 × 20.0 ÷ (33.9 + 20.0) ≈ 25.1%。每個真問題要看的意見數 = 889 ÷ 301 ≈ 3。[](source:ocr)
 
-@callout level=warning title="照實講的地方"
+@callout level=warning title="Tips"
 這份 benchmark（AACR-Bench）是阿里巴巴自己做的。它比的是 Claude Code 當通用 agent 做 review，不是 Claude Code 團隊內部那個 review bot。
 README 寫 token 約 1/9，是整體說法；上表只取同一個模型那兩列。
 F1 最高也只有約 25%，代表 bot 還取代不了人，這點和 Claude Code 團隊「核心永遠有人審」一致。
